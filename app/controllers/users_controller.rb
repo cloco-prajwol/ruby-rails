@@ -1,4 +1,3 @@
-class CustomError < StandardError; end
 
 class UsersController < ApplicationController
   before_action :authorize_user, except:[:register,:export]
